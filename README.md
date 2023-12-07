@@ -44,3 +44,5 @@ text-decoration,
 width
 
 Além do uso simples de tags, a elas foram atribuídos valores através do uso de <i>id</i>, <i>class</i> e <i>href</i>.
+
+Este projeto está sujeito a mudanças, visto que é uma ferramenta de estudo e prática.
