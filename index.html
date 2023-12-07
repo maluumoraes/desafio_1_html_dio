@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>O que aprendi sobre HTML</title>
+</head>
+<body>
+    <h1>Desafio 1: usando o HTML</h1>
+    <hr>
+
+    <h2>Índice</h2>
+    <ul>
+        <li><a href="#o-que-e-html">O que é HTML?</a></li>
+        <li><a href="#como-funcionam-marcacoes">Como funcionam as marcações?</a></li>
+        <li><a href="#boas-praticas-programacao">Boas práticas na programação</a></li>
+        <li><a href="#referencia">Referências</a></li>
+    </ul>
+
+    <h2 id="o-que-e-html">O que é <strong>HTML</strong>?</h2>
+        <p>O <strong>HTML</strong> é a sigla designada para <em>HyperText Markup Language</em> (Linguagem de Marcação de Hipertexto), uma linguagem de marcação utilizada para estruturar uma página web.</p> 
+       
+        <p>De forma didática podemos imaginar que o HTML usa de marcações (chamadas de <b>tags</b>) para apontar onde cada elemento se localiza dentro de uma página, quais características recebem e como interagem/aparecem ao serem acessados pelo usuário.</p>
+        <p>Tudo que estiver entre a abertura e o fechamento de uma tag é chamado de <b>elemento</b>.</p>
+
+        <div class="ilustre">
+            <img src= alt="">
+        </div>
+
+        <p>A escrita em HTML pode ser feita em qualquer editor de texto como o bloco de notas, ou utilizar de um editor específico, como o VS Code, que permite a escrita fluída e compatível com a linguagem. E a abertura de um arquivo html será realizado em um navegador, que apresentará o conteúdo como o usuário que acessará a página web irá enxergar.</p>
+        <p>Pegando o exemplo cima <code> < b > De cabo a rabo, sou um elemento < /b ></code> é visto no navegador da seguinte forma:</p>
+
+
+        <p><b>De cabo a rabo, sou um elemento</b></p>
+    
+    <h2 id="como-funcionam-marcacoes">Como funcionam as <strong>marcações (tags)</strong> no HTML?</h2>
+        <p>Como dito anteriormente, as <strong>tags</strong> são responsáveis por marcar a estrutura da página web.</p>
+        <p>Sua escrita é feita de um jeito especial: entre <i>chevron</i>, popularmente conhecidos como sinais de <u>menor que</u> e <u>maior que</u>.</p>
+        
+        <p>A tag fica entre esses sinais, da seguinte forma:</p>
+    
+           <div class="exemplo">
+             <code>< tag > informação < /tag ></code>
+            </div>
+        <p>Desse modo, de acordo com o posicionamento d é delimitado onde a informação fica dentro da página.</p>
+            
+        <p>Além da marcação da tag, existem conceitos importantes de serem entendidos. São eles os atributos, valores e filhos.</p>
+            
+        <p>O atributo é um termo usado dentro de uma tag que especifica seu comportamento, definindo um valor para tal.</p>    
+            
+        <p>O valor é o nome dado a tag através de um atributo. Assim, toda tag que usar aquele valor se comporta daquele modo</p>    
+            
+        <p>Por exemplo:</p>    
+            <div class="ilustre">
+                <img src= alt="">
+            </div>            
+        <p>No exemplo acima, o <code>< body ></code> é um elemento-pai, das tags <code>< h1 ></code> e <code>< p ></code>.</p>
+        <p>Por sua vez, a tag <code> < p ></code> é pai da tag <code> < a ></code>.</p>
+        <p>E no que se refere a atributos, a tag <code>< a ></code> possui o atributo <i>href</i>, que lhe traz o valor <i>“http://dio.me”</i>.</p>
+        <p>Outro exemplo de atributo e valores poderia ser o seguinte:</p>
+            <div class="ilustre">
+                <img src= alt="">
+            </div>
+            
+        <p>Aqui, a tag <code>< div ></code> tem o atributo <i>class</i> onde <i>“fem”</i> e <i>“masc”</i> são valores.</p>
+        <p>Assim, ao trabalhar com outras configurações da página, para manipular dados com o mesmo atributo basta mencionar o valor associado que o conteúdo da tag será alterado seguindo as mesmas regras.</p>
+            
+        <p><b>É importante saber que:</b></p>
+            <ul>
+                <li>Nem toda tag aceita atributos</li>
+                <li>Nem todo atributo funciona em qualquer tag</li>
+            </ul>
+            
+        <p>Ou seja, não basta conhecer as tags e entender os atributos. É necessário saber as combinações possíveis para um código funcional.</p>
+            
+        <p>Além disso, seguir as <b>boas práticas</b> ao codar é um diferencial.</p>
+
+    <h2 id="boas-praticas-programacao">Boas práticas na programação</h2>
+        <p>Quando se trabalha com programação é necessário considerar que o código será lido e manipulado por várias pessoas ao longo do tempo. 
+
+        <p>Para isso, é necessário que qualquer um que o leia consiga compreendê-lo e manuseá-lo de forma adequada e segura.</p>
+
+        <p>Pensando nisso, foi proposto entre os programadores as chamadas <strong>boas práticas</strong>.</p> 
+
+        <p>Em uma analogia, as boas práticas na programação se equiparam aos bons modos na vida em sociedade: não há uma lei dizendo “cumprimente o coleguinha”, mas fazer uso de “por favor”, “obrigada”, “com licença”, “bom dia/tarde/noite” tornam o diálogo mais harmônico.</p>
+
+        <p>As boas práticas na programação vão além do uso adequado dos termos, é pensar o código de forma clara. Algumas dicas para quem está iniciando na programação (como eu) são:</p>
+        <br>
+            <ul>
+                <li><b>Ser  claro</b> ao escrever cada código.</li>
+                <li><b>Respeitar o espaço entre elementos</b>, indentação. É como respeitar o espaço entre palavras, o pular linha e o parágrafo na hora de escrever uma redação</li>
+                <li><b>Usar comentários explicativos</b> curtos e objetivos quando necessário.</li>
+                <li><b>Manter o código separado em partes afins</b>. Como temas de um texto separado em parágrafos.</li>
+            </ul>
+        <br>
+        <p>Existem outras boas práticas relacionadas a segurança, teste, versionamento e documentação, porém são temas para outro momento.</p>
+        
+        <p>Se você quiser saber de forma simples um pouco mais sobre o tema, clique aqui .</p>
+
+        <b>Sugestão:</b>
+        <p>Para se divertir, acesse o site da <a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_intro">w3schools </a>e pratique um pouco com as linhas de código usadas de exemplo aqui!</p>
+
+
+    <h2 id="referencia">Referências</h2>
+    <ul>
+        <li><a href="https://www.dio.me/articles/conhecendo-a-estrutura-html">Conhecendo a estrutura HTML</a></li>
+        <li><a href="https://www.alura.com.br/artigos/o-que-e-html-suas-tags-parte-5-atributos-elementos#:~:text=Atributos%20HTML%20s%C3%A3o%20palavras%20especiais,um%20campo%20de%20texto%2C%20etc%E2%80%A6">O que é o HTML e suas tags</a></li>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element">Elementos HTML</a></li>
+        <li><a href="https://pt.wikipedia.org/wiki/HTML">HTML</a></li>
+        <li><a href="https://www.labenu.com.br/blog-post/7-boas-praticas-de-programacao-para-manter-seu-codigo-limpo">7 boas práticas na programação para manter seu código limpo</a></li>
+    </ul>
+    
+</body>
+</html>

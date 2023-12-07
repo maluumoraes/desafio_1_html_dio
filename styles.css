@@ -1,0 +1,42 @@
+
+p{
+margin-top: 10px;
+}
+
+body{
+    color: rgba(165, 42, 42, 0.616);
+    background-color: bisque;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+    color: brown;
+    padding-left: 6px;
+}
+
+img{
+    border-color: brown;
+    border-style: double;
+    width: 40%;
+}
+
+.ilustre{
+    text-align: left;
+}
+
+.exemplo{
+    font-size: x-large;
+}
+
+a:link {
+    text-decoration: none;
+    color:rgba(165, 42, 42, 0.616);
+   }
+
+a:hover {
+    text-decoration: none;
+    color: rgba(165, 42, 42, 0.616);
+    background: #ff9253f7;
+    font-weight: bold;
+    border-color: #ee6767;
+   }
